@@ -1,0 +1,206 @@
+.cont {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    background: linear-gradient(white, black);
+}
+
+.cont2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 100px;
+}
+
+.sub{
+    margin-right: 100px;
+    transform: translateX(60px);
+
+}
+
+.icon {
+    font-size: 80px;
+    transform: translateX(180px)
+    translateY(-60px);
+    position: relative;
+
+    animation: code 4s ease infinite;
+}
+
+
+@keyframes code {
+    0%{ top: 0px; }
+    25%{ top: 100px; }
+    50%{ top: 180px; }
+    75%{ top: 100px; }
+    100%{ top: 0px; }
+}
+
+
+.text {
+    border: double blueviolet 4px;
+    border-radius: 50px;
+    background: aliceblue;
+    color: black;
+    font-style: italic;
+    font-size: 23px;
+    font-weight:400;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px blueviolet;
+    text-shadow: 0 0 3px black;
+}
+
+
+.ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+    list-style: square;
+}
+
+.ul li {
+    margin-right: 30px;
+    margin-bottom: 10px;
+    transform: translateX(100px);
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.ul li:hover {
+    font-weight: bold;
+    text-shadow: 0 0 5px white; 
+    text-decoration: underline;
+}
+
+.ul strong {
+    color: blueviolet;
+    text-shadow: 0 0 5px blueviolet;
+}
+
+.ul strong:hover {
+    color: blue;
+    text-shadow: 0 0 5px blue;    
+}
+
+.title {
+    font-size: 69px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    color: blue;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px blue;
+    width: 290px;
+    text-align: center
+}
+
+.title::first-letter {
+    font-size: 80px;
+    font-style: normal;
+
+}
+
+
+.title2::first-letter, .title3::first-letter {
+    font-size: 50px;
+    font-style: italic;
+}
+
+.title2 {
+    font-size: 30px;
+    color: blueviolet;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0 0 3px blueviolet;
+    transform: translateX(100px);
+    text-shadow: 0 0 20px white;
+}
+
+.title3 {
+    font-size: 28px;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 3px 3px 3px blueviolet;
+    transform: translateX(400px)
+    translateY(-100px);
+    letter-spacing: 5px;
+}
+
+.cont li {
+    transform: translateY(-100px)
+    translateX(50px);
+}
+
+.button {
+    transform: translateY(-80px)
+    translateX(400px);
+    font-size: 28px;
+    width: 120px;
+    border: outset white 5px;
+    border-radius: 50px;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 1px;
+    box-shadow: 1px 1px 1px 1px white;
+}
+
+.button:hover {
+    transform: translateY(-80px)
+    translateX(400px)
+    scale(1.1);
+    background: white;
+    box-shadow: 0 0 10px white;
+
+}
+
+
+/*-----------------Responsive Design---------------------------*/
+
+@media (max-width: 600px) {
+
+    .cont{
+        overflow-x: hidden;
+    }
+
+    .cont2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .title2{
+        position: relative;
+        left: 40px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .sub{
+        width:90vw;
+        margin-right: 7em;
+    }
+
+    .icon{
+        position: relative;
+        left: 50px;
+    }
+
+    .ul{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .title3 {
+        position: relative;
+        right: 400px;
+        font-size: 20px;
+    }
+
+    .button {
+        position: relative;
+        right: 400px;
+    }
+}

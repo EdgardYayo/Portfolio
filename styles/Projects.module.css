@@ -1,0 +1,264 @@
+.container{
+    background: linear-gradient(black, white, white,  black);
+}
+
+
+.h1 {
+    text-align: center;
+    font-size: 80px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;    
+    letter-spacing: 3px;
+    text-shadow: 0 0 8px black;
+
+    animation: change 3s ease-in-out infinite;
+}
+
+
+@keyframes change {
+    0% {
+        color: white;
+        letter-spacing: 3px;
+    }
+
+    25% {
+        color: blue;
+        letter-spacing: 8px;
+    }
+
+    50% {
+        color: blueviolet;
+        letter-spacing: 12px;
+    }
+
+    100% {
+        color: cyan;
+        letter-spacing: 3px;
+    }
+
+}
+
+.p {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+    text-shadow: 0 0 3px black;
+    text-decoration: underline dotted white
+
+}
+
+.button {
+    position: absolute;
+    bottom: 550px;
+    left: 80px;
+    font-size: 28px;
+    width: 180px;
+    padding: 5px;
+    border: outset white 5px;
+    border-radius: 50px;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 1px;
+    box-shadow: 1px 1px 1px 1px white;
+
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background: white;
+    box-shadow: 0 0 10px white;
+}
+
+
+
+.ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;
+    margin-left: 100px;
+    position: relative;
+    bottom: 65px;
+    right: 40px;
+}
+
+.ul li {
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: 100;
+    text-shadow: 0 0 2px black;
+    letter-spacing:4px;
+    list-style-type: square;
+    color: blueviolet;
+    margin-bottom: 20px;
+}
+
+.ul li:hover{
+    color: white;
+    text-shadow: 0 0 5px blue;
+    font-style: italic;
+}
+
+
+/* -------------------- Big eyes --------------------*/
+
+.circle_cont {
+    border: blue 15px outset;
+    border-radius: 12vh;
+    height: 30vh;
+    background: transparent;
+    position: relative;
+    bottom: 25px;
+    box-shadow: 0 0 10px blue;
+    
+    animation: colorfull 4s ease infinite;
+}
+
+@keyframes colorfull {
+    0%{ border-color: blue;}
+    25%{ border-color: blueviolet;}
+    0%{ border-color: cyan;}
+    0%{ border-color: blueviolet;}
+    0%{ border-color: blue;}
+}
+
+.circle {
+    background: white;
+    border-radius: 50px;
+    border: black 1px solid;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0 0 10px black;
+
+    animation: move 9s ease infinite;
+}
+
+@keyframes move {
+    0%{ top: 0; left:0 }
+    25%{ top: 25px; left:0 }
+    50%{ top: 25px; left:1090px;}
+    75%{ top: 0; left:1090px }
+    100%{ top: 0; left:0 }
+    
+}
+
+.tiny {
+    background: green;
+    border-radius: 25px;
+    border: white 1px solid;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top:25px;
+    left: 25px;
+    box-shadow: 0 0 5px black;
+
+    animation: up-down 5s ease infinite;
+}
+
+@keyframes up-down {
+    0%{ top: 0;}
+    25%{ top: 25px; }
+    50%{ top: 50px; }
+    75%{ top: 25px; }
+    100%{ top: 0; }
+}
+
+.tiniest {
+    background: black;
+    border-radius: 12.5px;
+    border: white 1px solid;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 12.5px;
+    left: 12.5px;
+    box-shadow: 0 0 3px white;
+    
+}
+
+
+.circle_r {
+    background: white;
+    border-radius: 50px;
+    border: black 1px solid;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0 0 10px black;
+
+    animation: moves 9s ease infinite;
+}
+
+@keyframes moves {
+    0%{ bottom: 100px; left:100px }
+    25%{ bottom: 75px; left:100px }
+    50%{ bottom: 75px; left:1190px;}
+    75%{ bottom: 100px; left:1190px }
+    100%{ bottom: 100px; left:100px }
+    
+}
+
+.tiny_r {
+    background: green;
+    border-radius: 25px;
+    border: white 1px solid;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top:25px;
+    left: 25px;
+    box-shadow: 0 0 5px black;
+
+    animation: ups-down 5s ease infinite;
+}
+
+@keyframes ups-down {
+    0%{ top: 0;}
+    25%{ top: 25px;}
+    50%{ top: 50px;}
+    75%{ top: 25px;}
+    100%{ top: 0;}
+}
+
+.tiniest_r {
+    background: black;
+    border-radius: 12.5px;
+    border: white 1px solid;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 12.5px;
+    left: 12.5px;
+    box-shadow: 0 0 3px white;
+    
+}
+
+.nose{
+    background: linear-gradient(pink, white, red);
+    border-radius: 16px;
+    border: black 1px dotted;
+    height: 52px;
+    width: 32px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transform:scale(1.1);
+
+    position: relative;
+    bottom: 100px;
+    left: 85px;
+
+    animation: face 9s ease infinite;
+}
+
+@keyframes face {
+    0%{ bottom: 125px; left: 85px;}
+    25%{ bottom:100px; left: 85px;}
+    50%{ bottom:100px; left: 1175px;}
+    75%{ bottom: 125px; left: 1175px;}
+    100%{ bottom: 125px; left: 85px;}
+}
