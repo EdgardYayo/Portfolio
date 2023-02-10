@@ -30,15 +30,16 @@ export default function About() {
                     <li><strong>Sequelize</strong>-Advanced</li>
                     <li><strong>Express</strong>-Advanced Medium</li>
                     <li><strong>SQL</strong>-Advanced Medium</li>
-                    <li><strong>Node</strong>-Advanced Medium</li>
+                    <li><strong>Node.js</strong>-Advanced Medium</li>
                     <li><strong>Postgres</strong>-Advanced Medium</li>
                     <li><strong>Next.js</strong>-Advanced Medium</li>
                     <li><strong>Tailwind</strong>-Medium</li>
+                    <li><strong>Material UI</strong>-Medium</li>
+                    <li><strong>Typescript</strong>-Medium</li>
                     <li><strong>Git</strong>-Medium</li>
                     <li><strong>Python</strong>-Medium</li>
                     <li><strong>Django</strong>-Basics</li>
                     <li><strong>Bootstrap</strong>-Basics</li>
-                    <li><strong>Typescript</strong>-Basics</li>
                 </ul>
             </div>
 

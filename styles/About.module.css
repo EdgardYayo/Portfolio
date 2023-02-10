@@ -3,6 +3,7 @@
     place-content: center;
     place-items: center;
     background: linear-gradient(white, black);
+    overflow-x: hidden;
 }
 
 .cont2{
@@ -64,11 +65,13 @@
     transform: translateX(100px);
     font-family: monospace;
     font-size: 20px;
+    transition: all 0.5s ease;
+    transform-origin: left;
 }
 
 .ul li:hover {
     font-weight: bold;
-    text-shadow: 0 0 5px white; 
+    text-shadow: 0 0 2px white; 
     text-decoration: underline;
 }
 
