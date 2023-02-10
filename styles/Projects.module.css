@@ -262,3 +262,23 @@
     75%{ bottom: 125px; left: 1175px;}
     100%{ bottom: 125px; left: 85px;}
 }
+
+
+/*--------------------Responsive Design-------------------*/
+
+@media (max-width:600px) {
+    .ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .button {
+        bottom: -400px;
+        left: 150px;
+    }
+ 
+    .circle_cont{
+        overflow: hidden;
+        visibility: hidden;
+    }
+}

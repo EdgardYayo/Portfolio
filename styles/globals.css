@@ -13,7 +13,30 @@ a {
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(blueviolet, white);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(blueviolet, white, #3737B8);
+} */
 
 @media (prefers-color-scheme: dark) {
   html {

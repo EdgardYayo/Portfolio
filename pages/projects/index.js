@@ -22,6 +22,7 @@ export default function Projects() {
                 <li><a href="https://fan-page-simpsons-big-mouth-rick-and-morty.vercel.app/" target='_blank'>Fan Page⭐</a></li>
                 <li><a href="https://github.com/EdgardYayo/Dino.github.io" target='_blank'>Dinosaur Page🦕</a></li>
                 <li><a href="https://to-do-list-sigma-two.vercel.app/" target='_blank'>To Do list📝</a></li>
+                <li><a href="https://shop-line-front.vercel.app/" target='_blank'>ShopLine🛒</a></li>
                 
             </ul>
 
