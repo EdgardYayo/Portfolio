@@ -15,17 +15,11 @@ export default function Certificates(){
             <div>
                 <h1 className={s.title}>Certificates</h1>
             </div>
-            <Carousel width="90%"  showStatus={false} className={s.contImgs}>
-                <div>
+            <section className={s.contImgs}>
                     <Image src={cert1} alt='HTML and CSS' width={400} height={500}/>
-                </div>
-                <div>
                     <Image src={cert2} alt='Teaching Assistant' width={400} height={500}/>
-                </div>
-                <div>
                     <Image src={cert3} alt='English certificate' width={400} height={500}/>
-                </div>
-            </Carousel>
+            </section>
             <Link href={'/'}>
                 <button className={s.button}>Back</button>
             </Link>
