@@ -15,24 +15,28 @@
 }
 
 .title {
-  color: black;
+  color: transparent;
   font-size: 3.6rem;
   font-family: monospace;
+  background-image: linear-gradient(90deg, black, blueviolet);
+  background-clip: text;
+  -webkkit-background-clip:text;
   position: absolute;
   left: 80px;
   transition: 1s;
   letter-spacing: 3px;
   top: 260px;
-  text-shadow: 0 0 10px blueviolet;
+  /* text-shadow: 0 0 10px blueviolet; */
   z-index: 1;
-  transition: all 500ms;
+  transition: all 750ms ease;
 
 }
 
 .title:hover {
-  text-shadow: 0 0 10px blue;
+  /* text-shadow: 0 0 10px blue; */
+  background-image: linear-gradient(90deg,blue, black);
   font-style: italic;
-  transform: scale(1.1);
+  transform: scale(1.05);
   
 }
 
