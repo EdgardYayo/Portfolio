@@ -36,6 +36,22 @@
     100%{ top: 0px; }
 }
 
+.icon:hover::after{
+    content: "Contact Me At My Email allan.pazos@uabc.edu.mx or Call me at 6865230943 || WhatsApp +52 6861705282";
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+    width: 100%;
+    position: absolute;
+    top: 120px;
+    left: -185px;
+    background: linear-gradient(blueviolet 60%, blue);
+    filter: contrast(120%);
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 10px white;
+    text-shadow: 0 0 2px black;
+}
 
 .text {
     border: double blueviolet 4px;
@@ -189,6 +205,11 @@
     .icon{
         position: relative;
         left: 50px;
+    }
+
+    .icon:hover::after{
+        width: fit-content;
+        left: -70px;
     }
 
     .ul{

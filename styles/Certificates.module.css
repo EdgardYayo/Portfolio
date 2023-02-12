@@ -19,6 +19,8 @@
   width: 800px;
   height: 500px;
   box-shadow: 0 0 20px white;
+  border-radius: 15px;
+
 }
 
 .contImgs img {
@@ -26,6 +28,7 @@
   flex-grow: 1;
   object-fit: cover;
   opacity: 0.8;
+  border-radius: 15px;
   transition: 750ms ease;
 }
 
