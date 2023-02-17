@@ -16,7 +16,8 @@
 
 .title {
   color: transparent;
-  font-size: 3.6rem;
+  cursor: pointer;
+  font-size: 3.2rem;
   font-family: monospace;
   background-image: linear-gradient(90deg, black, blueviolet);
   background-clip: text;
@@ -39,6 +40,37 @@
   transform: scale(1.05);
   
 }
+
+
+.contact{
+  cursor: pointer;
+  position: relative;
+  color: black;
+  background: linear-gradient(gray, blueviolet,gray);
+  padding: 20px;
+  margin-top: 160px;
+  border-radius: 80px;
+  border: inset 2px black;
+  font-size: 20px;
+  font-family: monospace;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+  filter: contrast(120%); 
+  text-shadow: 0 0 2px white;
+  box-shadow: 0 0 30px black; 
+  transition: all ease 0.5s;
+}
+
+.contact:hover {
+  opacity: 0.8;
+  box-shadow: 0 0 30px white;
+}
+
+.contact:hover > p {
+  color: #fff;
+}
+
 
 .img {
   border-radius: 5%;
@@ -132,7 +164,8 @@
 
 .cont2 {
   position: absolute;
-  top:720px
+  top:680px;   
+  /* top: 720px; */
 }
 
 .icon {

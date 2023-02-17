@@ -50,8 +50,8 @@
 }
 
 .button {
-    position: absolute;
-    bottom: 550px;
+    position: sticky;
+    bottom: 450px;
     left: 80px;
     font-size: 28px;
     width: 180px;
@@ -84,12 +84,13 @@
 }
 
 .ul li {
+    position: relative;
     font-size: 25px;
     font-family: monospace;
     font-weight: 100;
     text-shadow: 0 0 2px black;
     letter-spacing:4px;
-    list-style-type: square;
+    list-style-type:none;
     color: blueviolet;
     margin-bottom: 20px;
 }
@@ -98,8 +99,33 @@
     color: white;
     text-shadow: 0 0 5px blue;
     font-style: italic;
+    transition: all 750ms ease;
 }
 
+.img{
+    position: absolute;
+    top:35px;
+    left: -35px;
+    width: 0px;
+    height: 0px;
+    border-radius: 15px; 
+    transition: all 500ms ease;
+}
+
+.ul li:hover .img{
+    width: 350px;
+    height: 250px;
+    filter: contrast(120%);
+    box-shadow: 0 0 20px black;
+    border: 3px solid black;
+    background: white;
+    padding: 2px;
+    z-index: 2; 
+}
+
+.img:hover {
+    transform: scale(1.2);
+}
 
 /* -------------------- Big eyes --------------------*/
 
