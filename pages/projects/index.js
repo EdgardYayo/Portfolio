@@ -29,7 +29,7 @@ export default function Projects() {
                 <li><a href="https://character-create.vercel.app/" target='_blank'>Discover Your Inside Chef👨🏽‍🍳</a></li>
                 <li><Image className={s.img} src={meditationPage} alt="meditation-page"/><a href="https://edgardyayo.github.io/" target='_blank'>Meditation Page🧘‍♀️</a></li>
                 <li><Image className={s.img} src={fanPage} alt="fan-page"/><a href="https://fan-page-simpsons-big-mouth-rick-and-morty.vercel.app/" target='_blank'>Fan Page⭐</a></li>
-                <li><Image className={s.img} src={dinosaursPage} alt="dinosaurs-page"/><a href="https://github.com/EdgardYayo/Dino.github.io" target='_blank'>Dinosaur Page🦕</a></li>
+                <li><Image className={s.img} src={dinosaursPage} alt="dinosaurs-page"/><a href="https://dino-github-io.vercel.app/" target='_blank'>Dinosaur Page🦕</a></li>
                 <li><Image className={s.img} src={toDoList} alt="to-do-list"/><a href="https://to-do-list-sigma-two.vercel.app/" target='_blank'>To Do list📝</a></li>
                 <li><Image className={s.img} src={ShopLine} alt="shopline-ecommerce"/><a href="https://shop-line-front.vercel.app/" target='_blank'>ShopLine🛒</a></li>
                 

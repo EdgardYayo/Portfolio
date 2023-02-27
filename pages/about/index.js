@@ -1,12 +1,19 @@
 import Link from 'next/link';
-import s from '../../styles/About.module.css'
+import s from '../../styles/About.module.css';
+// import useDownloader from "react-use-downloader";
 
 
 export default function About() {
 
+    // const { download } = useDownloader()
+
+    const fileUrl = "../../public/downloads/CV Edgard API New Version.pdf";
+    const fileName = "Edgard A. Pazos Inda - Full Stack Developer";
+
     return (
         <main className={s.cont}>
             <h1 className={s.title}>About Me</h1>
+            <a className={s.cv} onClick={() => download(fileUrl, fileName)}>Download CV ⇩</a>
             <div className={s.cont2}>
                 <div className={s.sub}>
                     <h2 className={s.title2}>Description</h2>
