@@ -79,6 +79,8 @@
 
 
 .img {
+  width: 200px;
+  height: 200px;
   border-radius: 5%;
   border-top-right-radius: 80px;
   border-bottom-right-radius: 80px;
@@ -233,6 +235,7 @@
   gap:40px;
   z-index: 2;
 }
+
 
 /*------------- Responsive Design--------------------------*/
 

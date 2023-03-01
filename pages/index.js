@@ -8,6 +8,7 @@ import react_redux from '../public/imagenes/react_icon3.png'
 import node from '../public/imagenes/nodejs.png'
 import postgres from '../public/imagenes/postgres.png'
 import { useState } from 'react'
+import I from "../public/imagenes/I.jpg"
 
 
 export default function Home() {
@@ -28,7 +29,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Image className={styles.img} src={mine} alt='photo' />
+        <Image className={styles.img} src={I} alt='photo' />
         {
         modal === false ?
         <h1 className={styles.title} onClick={handleModal}>
