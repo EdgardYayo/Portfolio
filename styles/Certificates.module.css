@@ -8,10 +8,16 @@
 
 .title{
     font-size: 75px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: 0 0 7px black;
     font-weight: 100;
     letter-spacing: 10px;
+
+    animation: titleee 1.5s ease;
+}
+
+@keyframes titleee {
+  0%{opacity: 0; transform: translateY(-100px);}
+  100%{opacity: 1; transform: translateY(0);}
 }
 
  .contImgs {
@@ -21,6 +27,13 @@
   box-shadow: 0 0 20px white;
   border-radius: 15px;
 
+
+  animation: contImgs 2.5s ease;
+}
+
+@keyframes contImgs {
+  0%{opacity: 0; transform: translateY(600px);}
+  100%{opacity: 1; transform: translateY(0);}
 }
 
 .contImgs img {

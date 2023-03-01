@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Indie Flower', cursive;
 }
 
 a {
@@ -12,6 +13,7 @@ a {
 }
 
 * {
+  font-family: 'Indie Flower', cursive;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }

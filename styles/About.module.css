@@ -65,6 +65,13 @@
     text-align: center;
     box-shadow: 0 0 10px blueviolet;
     text-shadow: 0 0 3px black;
+
+    animation: text 2s ease;
+}
+
+@keyframes text {
+    0%{ opacity: 0; transform: translateX(1000px);}
+    100%{ opacity: 1; transform: translateX(0);}
 }
 
 
@@ -79,7 +86,6 @@
     margin-right: 30px;
     margin-bottom: 10px;
     transform: translateX(100px);
-    font-family: monospace;
     font-size: 20px;
     transition: all 0.5s ease;
     transform-origin: left;
@@ -104,13 +110,19 @@
 .title {
     font-size: 69px;
     font-style: italic;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 100;
     color: blue;
     letter-spacing: 2px;
     text-shadow: 0 0 10px blue;
     width: 290px;
-    text-align: center
+    text-align: center;
+
+    animation: titlee 2s ease;
+}
+
+@keyframes titlee {
+    0%{ opacity: 0; transform: rotate(360deg);}
+  100%{ opacity: 1;}
 }
 
 .title::first-letter {
@@ -153,16 +165,21 @@
     letter-spacing: 1px;
     font-weight: 400;
     font-style: italic;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-shadow: 0 0 3px blueviolet;
     transform: translateX(100px);
     text-shadow: 0 0 20px white;
+
+    animation: title2 1s ease;
+}
+
+@keyframes title2 {
+    0%{ opacity: 0; transform: translateY(-700px) translateX(100px);}
+  100%{ opacity: 1; transform: translateY(0) translateX(100px);}
 }
 
 .title3 {
     font-size: 28px;
     font-style: italic;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-shadow: 3px 3px 3px blueviolet;
     transform: translateX(400px)
     translateY(-100px);

@@ -7,7 +7,6 @@
     text-align: center;
     font-size: 80px;
     font-style: italic;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;    
     letter-spacing: 3px;
     text-shadow: 0 0 8px black;
@@ -45,8 +44,15 @@
     font-size: 40px;
     font-weight: 200;
     text-shadow: 0 0 3px black;
-    text-decoration: underline dotted white
+    text-decoration: underline dotted white;
 
+    animation: p 2.5s ease;
+
+}
+
+@keyframes p {
+    0%{ opacity: 0;}
+    100%{ opacity: 1;}
 }
 
 .button {
@@ -63,6 +69,12 @@
     letter-spacing: 1px;
     box-shadow: 1px 1px 1px 1px white;
 
+    animation: button 4.5s ease;
+}
+
+@keyframes button {
+    0%{ opacity: 0;}
+    100%{ opacity: 1;}
 }
 
 .button:hover {
@@ -81,6 +93,13 @@
     position: relative;
     bottom: 65px;
     right: 40px;
+
+    animation: ul 4s ease;
+}
+
+@keyframes ul {
+    0%{ opacity: 0; transform: translateY(-200px);}
+    100%{ opacity: 1; transform: translateY(0);}
 }
 
 .ul li {
