@@ -45,8 +45,14 @@ export default function About() {
                     <li><strong>Typescript</strong>-Medium</li>
                     <li><strong>Git</strong>-Medium</li>
                     <li><strong>Python</strong>-Medium</li>
+                    <li><strong>MongoDB</strong>-Medium</li>
                     <li><strong>Django</strong>-Basics</li>
                     <li><strong>Bootstrap</strong>-Basics</li>
+                    <li><strong>Mongoose</strong>-Basics</li>
+                    <li><strong>GraphQL</strong>-Basics</li>
+                    <li><strong>GraphCMS</strong>-Basics</li>
+                    <li><strong>Apollo Server</strong>-Basics</li>
+                    <li><strong>Apollo Client</strong>-Basics</li>
                 </ul>
             </div>
 

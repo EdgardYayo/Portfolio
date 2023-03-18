@@ -9,6 +9,8 @@ import fanPage from "../../public/imagenes/Captura web_16-2-2023_211857_fan-page
 import dinosaursPage from "../../public/imagenes/Captura web_16-2-2023_21311_127.0.0.1.jpeg"
 import toDoList from "../../public/imagenes/Captura web_16-2-2023_211922_to-do-list-sigma-two.vercel.app.jpeg"
 import ShopLine from "../../public/imagenes/Captura web_16-2-2023_21205_shop-line-front.vercel.app.jpeg"
+import foodsPI from "../../public/imagenes/Foods_pi.png"
+import videoGamesPI from "../../public/imagenes/Videogames.png"
 
 
 export default function Projects() {
@@ -25,8 +27,8 @@ export default function Projects() {
                 <li><Image className={s.img} src={calculator} alt="calculator"/><a href="https://calculadora-bay-alpha.vercel.app/" target='_blank'>Calculator🧮</a></li>
                 <li><Image className={s.img} src={characterCreate} alt="create-character-page"/><a href="https://character-create.vercel.app/" target='_blank'>Create A Character👾</a></li>
                 <li><a href="https://character-create.vercel.app/" target='_blank'>Pokemon Page🐛</a></li>
-                <li><a href="https://character-create.vercel.app/" target='_blank'>Videogames Page🎮</a></li>
-                <li><a href="https://character-create.vercel.app/" target='_blank'>Discover Your Inside Chef👨🏽‍🍳</a></li>
+                <li><Image className={s.img} src={videoGamesPI} alt="videogames-page"/><a href="https://github.com/EdgardYayo/VideoGames_PI" target='_blank'>Videogames Page🎮</a></li>
+                <li><Image className={s.img} src={foodsPI} alt="foods-page"/><a href="https://github.com/EdgardYayo/Foods_PI" target='_blank'>Discover Your Inside Chef👨🏽‍🍳</a></li>
                 <li><Image className={s.img} src={meditationPage} alt="meditation-page"/><a href="https://edgardyayo.github.io/" target='_blank'>Meditation Page🧘‍♀️</a></li>
                 <li><Image className={s.img} src={fanPage} alt="fan-page"/><a href="https://fan-page-simpsons-big-mouth-rick-and-morty.vercel.app/" target='_blank'>Fan Page⭐</a></li>
                 <li><Image className={s.img} src={dinosaursPage} alt="dinosaurs-page"/><a href="https://dino-github-io.vercel.app/" target='_blank'>Dinosaur Page🦕</a></li>
